@@ -62,7 +62,6 @@ A simple **login web application** was developed using Flask to generate real ne
 │ ├── tcp_three_way_handshake.png
 │ ├── http_plaintext_credentials.png
 │ ├── https_encrypted_traffic.png
-│ └── dns_query_analysis.png
 ```
 
 

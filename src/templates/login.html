@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber Security Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h1>Cyber Security Lab</h1>
+    <p class="subtitle">Networking Basics – Login Portal</p>
+
+    <form method="POST">
+        <label>Username</label>
+        <input type="text" name="username" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    {% if message %}
+        <p class="message">{{ message }}</p>
+    {% endif %}
+
+    <div class="task-info">
+        <h3>Task 3: Networking Basics</h3>
+        <ul>
+            <li>Observe HTTP traffic using Wireshark</li>
+            <li>Analyze TCP three-way handshake</li>
+            <li>Identify plain-text credentials</li>
+            <li>Capture DNS queries</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+
